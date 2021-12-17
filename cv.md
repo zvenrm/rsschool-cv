@@ -1,6 +1,6 @@
 # Egor Vasiukevich
 
-## Contact information:
+## Contact information
 
 * **Phone:** +375298467327
 * **Email:** zvennnnnn@gmail.com
@@ -11,7 +11,7 @@
 
 ## About me
 
-I'm 23 y.o. and I wark as a teacher of special disciplines in the specialty "Information Technology Software". I want to become a front-end developer because I like to program. Ready to study new technologies and give my all to this business.
+I'm 23 y.o. and I work as a teacher of special disciplines in the specialty "Information Technology Software". I want to become a front-end developer because I like to program. Ready to study new technologies and give my all to this business.
 
 ## My Skills
 
