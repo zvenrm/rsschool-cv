@@ -1,9 +1,11 @@
 # Egor Vasiukevich
 
 ## Contact information:
+
 * **Phone:** +375298467327
 * **Email:** zvennnnnn@gmail.com
 * **Telegram:** @zvenrm
+* **Discord:** zvenrm (@zvenrm)
 * [GitHub](https://github.com/zvenrm)
 * [Instagram](https://www.instagram.com/egor.vasiukevich/)
 
@@ -36,8 +38,17 @@ function findShort(s){
 }
 ```
 
+## Education
+
+**Belarusian State University of Food and Chemical Technologies**, Software Engineer
+
 ## Courses
 
 * HTML and CSS courses on the code-basics.com (completed)
 * JavaScript manual on the learn.javascript.ru (in progress)
 * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+
+## Languages
+
+* Russian
+* English **A2**
