@@ -13,14 +13,26 @@ body {
     width: 80%;
     margin: 0 auto;
     height: 100%;
-    /* border: 3px solid green; */
     background-color: #fff;
+    
 }
 
 header {
-    /* border: 2px solid red; */
     height: 50px;
     width: 100%;
+    position: relative;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 15%;
+    display: block;
+    width: 70%;
+    height: 2px;
+    background-color: #D8D7D4;
+
 }
 
 nav {
@@ -37,6 +49,7 @@ nav {
 .nav-item {
     display: inline-block;
     margin: 0 20px;
+    
 }
 
 .nav-item-link {
@@ -46,11 +59,122 @@ nav {
     font-size: 20px;
     position: relative;
     transition: all 0.2s;
-    color: #03007A;
+    color: #851BD9;
     border-radius: 35%;
 }
 
 .nav-item-link:hover {
     font-size: 21px;
-    text-shadow: 1px 2px 2px #C9C7FF;
+    text-shadow: 2px 3px 3px #D8D7D4;
+}
+
+.main {
+    padding: 30px 70px 0 70px;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+h1 {
+    font-size: 55px;
+    margin: 0 0 10px 0;
+}
+
+.contacts-title {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+.profile-info__info-profession {
+    font-size: 20px;
+    font-weight: 700;
+    color: #851BD9;
+    margin: 0 0 10px 0;
+}
+
+.profile-info__info-education {
+    font-size: 18px;
+    margin: 0 0 2px 0;
+}
+
+.foto {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px #524E10;
+}
+
+.contacts {
+    position: relative;
+}
+
+.contacts::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: 5%;
+    width: 80%;
+    height: 2px;
+    background-color: #D8D7D4;
+
+}
+
+.contacts-title {
+    margin-top: 20px;
+}
+
+.contacts-item {
+    list-style-type: none;
+    padding: 0 0 10px 25px;
+    position: relative;
+}
+
+.contacts-item::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 0;  
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+
+.contacts-item:nth-child(1):before {
+    background-image: url(../img/logo/mail.png);
+}
+
+.contacts-item:nth-child(2):before {
+    background-image: url(../img/logo/telega.png);
+}
+
+.contacts-item:nth-child(3):before {
+    background-image: url(../img/logo/inst.png);
+}
+
+.contacts-item:nth-child(4):before {
+    background-image: url(../img/logo/github.png);
+}
+
+.contacts-item:nth-child(5):before {
+    background-image: url(../img/logo/discord.png);
+}
+
+.contacts-item a {
+    color: #851BD9;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.contacts-item:nth-child(5) {
+    color: #851BD9;
+}
+
+.contacts-item a:hover {
+    color: #130D66;
+    text-shadow: 0 0 1px #130DFF;
 }
