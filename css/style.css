@@ -238,3 +238,40 @@ pre {
 span {
     font-weight: 700;
 }
+
+.footer {
+    width: 100%;
+    padding: 20px;
+    position: relative;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.rslogo {
+    width: 150px;
+    height: 50px;
+    background-image: url(../img/logo/rslogo.svg);
+    background-repeat: no-repeat;
+}
+
+.mygithub {
+    padding: 0 0 0 20px;
+    text-decoration: none;
+    color: #851BD9;
+}
+
+.footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 15%;
+    display: block;
+    width: 70%;
+    height: 2px;
+    background-color: #D8D7D4;
+}
