@@ -1,0 +1,277 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #D8D7D4;
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    background-color: #fff;
+    
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    position: relative;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 15%;
+    display: block;
+    width: 70%;
+    height: 2px;
+    background-color: #D8D7D4;
+
+}
+
+nav {
+    height: 100%;
+}
+
+.nav-list {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 0 20px;
+    
+}
+
+.nav-item-link {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+    position: relative;
+    transition: all 0.2s;
+    color: #851BD9;
+    border-radius: 35%;
+}
+
+.nav-item-link:hover {
+    font-size: 21px;
+    text-shadow: 2px 3px 3px #D8D7D4;
+}
+
+.main {
+    padding: 30px 70px 0 70px;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 7px #e0e0e0;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 55px;
+    margin: 0 0 10px 0;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.profile-info__info-profession {
+    font-size: 20px;
+    font-weight: 700;
+    color: #851BD9;
+    margin: 0 0 10px 0;
+}
+
+.profile-info__info-education {
+    font-size: 18px;
+    margin: 0 0 2px 0;
+}
+
+.foto {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px #524E10;
+    margin: 0 30px 0 0;
+}
+
+.contacts {
+    position: relative;
+}
+
+.contacts::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: 5%;
+    width: 80%;
+    height: 2px;
+    background-color: #D8D7D4;
+
+}
+
+.contacts h2 {
+    margin: 20px 0 10px 0;
+}
+
+.contacts-item {
+    list-style-type: none;
+    padding: 0 0 10px 25px;
+    position: relative;
+}
+
+.contacts-item::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 0;  
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+
+.contacts-item:nth-child(1):before {
+    background-image: url(../img/logo/mail.png);
+}
+
+.contacts-item:nth-child(2):before {
+    background-image: url(../img/logo/telega.png);
+}
+
+.contacts-item:nth-child(3):before {
+    background-image: url(../img/logo/inst.png);
+}
+
+.contacts-item:nth-child(4):before {
+    background-image: url(../img/logo/github.png);
+}
+
+.contacts-item:nth-child(5):before {
+    background-image: url(../img/logo/discord.png);
+}
+
+.contacts-item a {
+    color: #851BD9;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.contacts-item:nth-child(5) {
+    color: #851BD9;
+}
+
+.contacts-item a:hover {
+    color: #130D66;
+    text-shadow: 0 0 1px #130DFF;
+}
+
+.common {
+    padding: 30px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+}
+
+.common h2 {
+    margin-bottom: 10px;
+}
+
+.section {
+    padding: 10px 0 5px 10px;
+    margin: 0 0 30px 0;
+    width: 45%;
+    box-shadow: 0 0 7px #e0e0e0;
+    border-radius: 10px;
+}
+
+.section:nth-child(5) {
+    border-bottom: 0;
+}
+
+.section:nth-child(6) {
+    border-bottom: 0;
+}
+
+pre {
+    height: 240px;
+    display: block;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.common li {
+    list-style-type: none;
+    padding-left: 18px;
+    position: relative;
+}
+
+.common li::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    height: 10px;
+    width: 10px;
+    background-image: url(../img/dot.png);
+    background-repeat: no-repeat;
+}
+
+span {
+    font-weight: 700;
+}
+
+.footer {
+    width: 100%;
+    padding: 20px;
+    position: relative;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.rslogo {
+    width: 150px;
+    height: 50px;
+    background-image: url(../img/logo/rslogo.svg);
+    background-repeat: no-repeat;
+}
+
+.mygithub {
+    padding: 0 0 0 20px;
+    text-decoration: none;
+    color: #851BD9;
+}
+
+.footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 15%;
+    display: block;
+    width: 70%;
+    height: 2px;
+    background-color: #D8D7D4;
+}
