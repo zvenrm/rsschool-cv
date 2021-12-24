@@ -2,11 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
     background-color: #D8D7D4;
     font-family: 'IBM Plex Sans', sans-serif;
+    
 }
 
 .container {
@@ -76,7 +78,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    box-shadow: 0 0 7px #e0e0e0;
+    padding-left: 10px;
+    border-radius: 10px;
 }
 
 h1 {
@@ -84,9 +88,8 @@ h1 {
     margin: 0 0 10px 0;
 }
 
-.contacts-title {
+h2 {
     font-size: 20px;
-    margin: 0 0 10px 0;
 }
 
 .profile-info__info-profession {
@@ -106,6 +109,7 @@ h1 {
     width: 300px;
     border-radius: 50%;
     box-shadow: 0 2px 5px #524E10;
+    margin: 0 30px 0 0;
 }
 
 .contacts {
@@ -124,8 +128,8 @@ h1 {
 
 }
 
-.contacts-title {
-    margin-top: 20px;
+.contacts h2 {
+    margin: 20px 0 10px 0;
 }
 
 .contacts-item {
@@ -177,4 +181,60 @@ h1 {
 .contacts-item a:hover {
     color: #130D66;
     text-shadow: 0 0 1px #130DFF;
+}
+
+.common {
+    padding: 30px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+}
+
+.common h2 {
+    margin-bottom: 10px;
+}
+
+.section {
+    padding: 10px 0 5px 10px;
+    margin: 0 0 30px 0;
+    width: 45%;
+    box-shadow: 0 0 7px #e0e0e0;
+    border-radius: 10px;
+}
+
+.section:nth-child(5) {
+    border-bottom: 0;
+}
+
+.section:nth-child(6) {
+    border-bottom: 0;
+}
+
+pre {
+    height: 240px;
+    display: block;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.common li {
+    list-style-type: none;
+    padding-left: 18px;
+    position: relative;
+}
+
+.common li::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    height: 10px;
+    width: 10px;
+    background-image: url(../img/dot.png);
+    background-repeat: no-repeat;
+}
+
+span {
+    font-weight: 700;
 }

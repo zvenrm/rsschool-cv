@@ -16,12 +16,12 @@
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-item"><a href="#contacts-title" class="nav-item-link">Contacts</a></li>
-                    <li class="nav-item"><a href="#" class="nav-item-link">About me</a></li>
-                    <li class="nav-item"><a href="#" class="nav-item-link">Skills</a></li>
-                    <li class="nav-item"><a href="#" class="nav-item-link">Code</a></li>
-                    <li class="nav-item"><a href="#" class="nav-item-link">Education</a></li>
-                    <li class="nav-item"><a href="#" class="nav-item-link">Courses</a></li>
-                    <li class="nav-item"><a href="#" class="nav-item-link">Languages</a></li>
+                    <li class="nav-item"><a href="#about-me" class="nav-item-link">About me</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-item-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-item-link">Code</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-item-link">Education</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-item-link">Courses</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-item-link">Languages</a></li>
                 </ul>
             </nav>
         </header>
@@ -32,7 +32,7 @@
                     <p class="profile-info__info-profession">Teacher of special disciplines in the specialty<br/> "Information Technology Software"</p>
                     <p class="profile-info__info-education">RS School student</p>
                     <div class="contacts">
-                        <h2 class="contacts-title" id="contacts-title">Contacts</h2>
+                        <h2 id="contacts-title">Contacts</h2>
                         <ul class="contacts-list">
                             <li class="contacts-item"><a href="mailto:zvennnnnn@gmail.com">Email</a></li>
                             <li class="contacts-item"><a href="https://t.me/zvenrm">Telegram</a></li>
@@ -45,6 +45,61 @@
                 </div>
                 <img class="foto" src="./img/cvfoto.jpg" alt="My foto">
             </section>
+            <div class="common">
+                <section class="section" id="about-me">
+                    <h2>About me</h2>
+                    <p>I'm 23 y.o. and I work as a teacher of special disciplines in the specialty "Information Technology Software". I want to become a front-end developer because I like to program. Ready to study new technologies and give my all to this business.</p>
+                </section>
+                <section class="section" id="skills">
+                    <h2>My Skills</h2>
+                    <ul class="skills-list">
+                        <li class="skills-item">HTML</li>
+                        <li class="skills-item">CSS</li>
+                        <li class="skills-item">JavaScript(Basic)</li>
+                        <li class="skills-item">Python(Basic)</li>
+                        <li class="skills-item">Git(Beginner)</li>
+                    </ul>
+                </section>
+                <section class="section" id="code">
+                    <h2>Code Example</h2>
+                    <pre>
+        
+function findShort(s){
+    let str = s.split(' ');
+    let ln = str[0].length;
+    for (let i = 1; i < str.length; i++){
+        if (str[i].length < ln){
+            ln = str[i].length;
+        }
+    }
+    return ln;
+}
+
+                    </pre>
+                </section>
+                <section class="section" id="education">
+                    <h2>Education</h2>
+                    <ul>
+                        <li><span>University of Food and Chemical Technologies</span>, Software Engineer</li>
+                        <li>At the moment I am a student of the RS School</li>
+                    </ul>
+                </section>
+                <section class="section" id="courses">
+                    <h2>Courses</h2>
+                    <ul class="courses-list">
+                        <li class="courses-item">HTML and CSS courses on the code-basics.com (completed)</li>
+                        <li class="courses-item">JavaScript manual on the learn.javascript.ru (in progress)</li>
+                        <li class="courses-item">RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                    </ul>
+                </section>
+                <section class="section" id="languages">
+                    <h2>Languages</h2>
+                    <ul class="languages-list">
+                        <li class="languages-item">Russian</li>
+                        <li class="languages-item">English <span>A2</span></li>
+                    </ul>
+                </section>
+            </div>
         </main>
         <footer class="footer">
 
