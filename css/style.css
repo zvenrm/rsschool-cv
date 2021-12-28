@@ -44,6 +44,7 @@ nav {
 .nav-list {
     height: 50px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -104,12 +105,19 @@ h2 {
     margin: 0 0 2px 0;
 }
 
+.profile-foto {
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 300px;
+    margin: 0 30px 0 0;
+}
+
 .foto {
-    height: 300px;
-    width: 300px;
+    height: auto;
+    width: 100%;
     border-radius: 50%;
     box-shadow: 0 2px 5px #524E10;
-    margin: 0 30px 0 0;
+    
 }
 
 .contacts {
@@ -274,4 +282,106 @@ span {
     width: 70%;
     height: 2px;
     background-color: #D8D7D4;
+}
+
+@media screen and (max-width: 710px) {    
+    h1 {
+        font-size: 30px;
+    }
+
+    .profile-info__info-profession {
+        font-size: 15px;
+    }
+
+    .profile-info__info-education {
+        font-size: 13px;
+    }
+
+    .section {
+        font-size: 11px;
+    }
+
+    .section h2 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 542px) {
+    .nav-item-link {
+        font-size: 15px;
+    }
+    
+    h1 {
+        font-size: 25px;
+    }
+
+    .profile-info__info-profession {
+        font-size: 15px;
+    }
+
+    .profile-info__info-education {
+        font-size: 13px;
+    }
+
+    .section {
+        font-size: 11px;
+    }
+
+    .section h2 {
+        font-size: 10px;
+    }
+
+    .profile {
+        flex-wrap: wrap;
+    }
+
+    .main {
+        padding: 15px 15px 0 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .nav-item-link {
+        font-size: 10px;
+    }
+    
+    h1 {
+        font-size: 25px;
+    }
+
+    .profile-info__info-profession {
+        font-size: 15px;
+    }
+
+    .profile-info__info-education {
+        font-size: 13px;
+    }
+
+    .section {
+        font-size: 13px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .section h2 {
+        font-size: 10px;
+    }
+
+    .profile {
+        flex-wrap: wrap;
+    }
+
+    .profile, .common {
+        max-width: 80%;
+    }
+
+    .main {
+        padding: 15px 15px 0 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
