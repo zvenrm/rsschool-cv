@@ -284,6 +284,17 @@ span {
     background-color: #D8D7D4;
 }
 
+.project-link {
+    color: #851BD9;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.project-link:hover {
+    color: #130D66;
+    text-shadow: 0 0 1px #130DFF;
+}
+
 @media screen and (max-width: 710px) {    
     h1 {
         font-size: 30px;
